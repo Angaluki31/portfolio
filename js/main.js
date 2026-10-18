@@ -1,7 +1,7 @@
 // Typewriter line under the name. Edit the phrases to change what it says.
 const phrases = [
   "I build web tools.",
-  "I make strange software.",
+  "I make strange software projects.",
   "I work on security projects."
 ];
 
