@@ -103,3 +103,10 @@ if (reduceMotion) {
   carousel.classList.add("is-ready");
   show(0);
 })();
+
+// Clicking the carousel (outside links and buttons) opens my GitHub profile
+const carouselViewport = document.querySelector(".carousel-viewport");
+carouselViewport.addEventListener("click", (e) => {
+  if (e.target.closest("a, button")) return; // let links and arrows work normally
+  window.open("https://github.com/Angaluki31", "_blank", "noopener");
+});
