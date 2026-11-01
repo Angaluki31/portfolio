@@ -46,7 +46,7 @@ h1, h2, h3 { font-family: "Bricolage Grotesque", system-ui, sans-serif; line-hei
 
 /* ---------- Hero ---------- */
 .hero { display: grid; align-items: center; min-height: calc(100vh - 60px); }
-.hero h1 { font-size: clamp(2.6rem, 8vw, 4.6rem); font-weight: 700; letter-spacing: -0.02em; }
+.hero h1 { font-size: clamp(2.2rem, 6.5vw, 3.8rem); font-weight: 700; letter-spacing: -0.02em; }
 .typed-line { font-family: "Bricolage Grotesque", sans-serif; font-size: clamp(1.3rem, 3.5vw, 1.8rem); color: var(--amber); margin: 0.75rem 0 1.25rem; min-height: 2.2rem; }
 .caret { display: inline-block; width: 2px; height: 1.1em; background: var(--amber); margin-left: 3px; vertical-align: -0.15em; animation: blink 1s steps(1) infinite; }
 .lead { color: var(--muted); max-width: 34rem; }
@@ -154,3 +154,4 @@ h1, h2, h3 { font-family: "Bricolage Grotesque", system-ui, sans-serif; line-hei
 }
 
 .carousel-viewport { cursor: pointer; }
+.name { color: var(--amber); }
